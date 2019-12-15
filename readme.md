@@ -3,6 +3,8 @@
 ## 基本框架
 
 位于workspace/src/cartographer/cartographer中
+
+```
 ├── cloud
 ├── common          
 ├── ground_truth    似乎不重要
@@ -11,10 +13,12 @@
 ├── metrics             
 ├── sensor                传感器数据与 fix frame  
 └── transform          位姿变换相关代码
+```
 
 #### 12.15:
 
-###### Sensor
+```
+Sensor
 ├── collator_interface.h
 ├── compressed_point_cloud.cc
 ├── compressed_point_cloud.h
@@ -41,6 +45,7 @@
 ├── range_data_test.cc
 ├── timed_point_cloud_data.cc
 └── timed_point_cloud_data.h
+```
 
 对sensor中imu定义文件和pointcloud文件进行了阅读,找到了frameID部分
 
